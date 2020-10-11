@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Survey Form</h1>
+        <form id="survey-form">
+          <p id="description">Fill the survey below</p>
+          <label id="name-label">Name:</label>
+          <br>
+          <input type="text" id="name" placeholder="Worker Name" required>
+          <br>
+          <label id="email-label">Email:</label>
+          <br>
+          <input type="email" id="email" placeholder="Worker Email" required>
+          <br>
+          <label id="number-label">Number:</label>
+          <br>
+          <input type="number" id="number" placeholder="Worker ID" required min="1000" max="10000">
+          <br>
+          <label for="dropdown">Worker division:</label>
+          <br>
+          <select name="division" id="dropdown">
+            <option value="volvo">Sales</option>
+            <option value="saab">Accounting</option>
+            <option value="mercedes">Corporate</option>
+            <option value="audi">Annex</option>
+          </select>
+          <br>
+          Motive:
+          <br>
+          <label for="suggestion"> 
+            <input id="suggestion" type="radio" name="motive" value="suggestion">Suggestion 
+          </label>
+          <label for="issue"> 
+            <input id="issue" type="radio" name="motive" value="issue">Issue 
+          </label>
+          <br>
+          Notifications
+          <br>
+          <label for="me"><input id="me" type="checkbox" name="notifications" value="me">I'd like to be notified of the outcome</label>
+          <br>
+          <label for="others"><input id="others" type="checkbox" name="notifications" value="others">I'd like other workers to be notified of the outcome</label>
+          <br>
+          <label for="details">State the motive of this report:</label>
+          <br>
+          <textarea id="details" name="details" rows="4" cols="50"></textarea>
+          <br>
+          <br>
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>

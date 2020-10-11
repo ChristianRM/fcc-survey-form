@@ -1,0 +1,25 @@
+body {
+    background-color: #3792CB;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+  }
+  main {
+    background-color: skyblue;
+  }
+  .container {
+    background: rgba(255, 255, 255, .7);
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    color: #111;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  #survey-form  {
+    margin: auto;
+    width: 80%;
+  }
+  
