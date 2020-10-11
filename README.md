@@ -1,4 +1,4 @@
-# fcc-survey-form
+# Survey Form
 Free Code Camp Responsive Web Design Project #2
 
 This project is hosted at:
